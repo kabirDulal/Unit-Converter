@@ -11,7 +11,6 @@ const volumeEL = document.getElementById("volume-el");
 const massEL = document.getElementById("mass-el");
 btnEl.addEventListener("click",function (){
     unit = inputEl.value;
-    inputEl.value = " ";
     if(!isNaN (unit)){
         let feetToMeter = (1/3.281) * unit;
         feetToMeter = feetToMeter.toFixed(2);
@@ -39,3 +38,10 @@ btnEl.addEventListener("click",function (){
     
     
 })
+function nextValue() {
+    inputEl.value = " ";
+    lengthEL.innerHTML = " ";
+    massEL.innerHTML = " ";
+    volumeEL.innerHTML
+
+}
