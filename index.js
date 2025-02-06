@@ -42,6 +42,6 @@ function nextValue() {
     inputEl.value = " ";
     lengthEL.innerHTML = " ";
     massEL.innerHTML = " ";
-    volumeEL.innerHTML
+    volumeEL.innerHTML = " ";
 
 }
